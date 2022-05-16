@@ -1,0 +1,21 @@
+# SQL语言的分类
+
+- SQL（Structured Query Language）是结构化查询语言的简称，它是一种数据库查询和程序设计语言，同时也是目前使用最广泛的关系型数据库操作语言。在数据库管理系统中，使用SQL语言来实现数据的存取、查询、更新等功能。==SQL是一种非过程化语言，只需提出“做什么”，而不需要指明“怎么做”==。
+- SQL语句住要分为5个部分
+  - ==数据查询语言（Data Query Language，DQL）==：DQL主要用于数据的查询，其基本结构是使用SELECT子句，FROM子句和WHERE子句的组合来查询一条或多条数据。
+  - ==数据操作语言（Data Manipulation Language，DML）==：DML主要用于对数据库中的数据进行增加、修改和删除的操作：
+    - INSERT：增加数据
+    - UPDATE：修改数据
+    - DELETE：删除数据
+  - ==数据定义语言（Data Definition Language，DDL）==：DDL主要用针对是数据库对象（数据库、表、索引、视图、触发器、存储过程、函数）进行创建、修改和删除操作
+    - CREATE：创建数据库对象
+    - ALTER：修改数据库对象
+    - DROP：删除数据库对象
+  - ==数据控制语言（Data Control Language，DCL）==：DCL用来授予或回收访问 数据库的权限
+    - GRANT：授予用户某种权限
+    - REVOKE：回收授予的某种权限
+  - ==事务控制语言（Transaction Control Language，TCL）==：TCL用于数据库的事务管理
+    - START TRANSACTION：开启事务
+    - COMMIT：提交事务
+    - ROLLBACK：回滚事务
+    - SET TRANSACTION：设置事务的属性 

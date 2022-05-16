@@ -1,9 +1,19 @@
 # MySQL
 
-- [数据理论](mysql入门理论.md)
-- [数据定义语言-DDL](database/mysql/DDL.md)`Data Denifition Language`
-- [数据操纵语言-DML](database/mysql/DML.md)`Data Manipulation Language`
-- [数据查询语言-DQL](database/mysql/DQL.md)`Data Query Language`
-- [数据控制语言-DCL](database/mysql/DCL.md)`Data Control Language`
+- [初识MySql语句](database/mysql/初识MySql语句.md)
+- [数据库表列类型](database/mysql/数据库表列类型.md)
+- [SQL语言分类](database/mysql/SQL语言分类.md)
+- [数据定义语言](database/mysql/数据定义语言.md)
+- [数据操作语言](database/mysql/数据操作语言.md)
+- [数据查询语言-单表查询](database/mysql/数据查询语言-单表查询.md)
+- [数据查询语言-多表查询](database/mysql/数据查询语言-多表查询)
+- [子查询](database/mysql/子查询.md)
+- [通用表达式](database/mysql/通用表达式.md)
+- [表的完整性约束](database/mysql/表的完整性约束.md)
+- [表的完整性约束-非外键约束](database/mysql/表的完整性约束-非外键约束.md)
+- [表的完整性约束-外键约束](database/mysql/表的完整性约束-外键约束.md)
 - [视图](database/mysql/视图.md)
-- 
+- [事务](database/mysql/事务.md)
+- [事务的并发问题与隔离级别](database/mysql/事务的并发问题与隔离级别.md)
+- [数据库数据导出与导入](database/mysql/数据库数据导出与导入.md)
+- [DQL数据下载](database/mysql/DQL数据准备.zip)
