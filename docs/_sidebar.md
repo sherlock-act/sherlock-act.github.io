@@ -1,20 +1,26 @@
 * <!-- docs/_sidebar.md --> 
-* [Home](/) 
+- [首页](/) 
 
 - 数据库
-  - [MySQL](database/mysql/)
-  - [MongoDB](database/MongoDB/)
+  
+  [MySQL](database/mysql/)
 
--  前端技术
-
-	- [HTML(无内容)]()
-
-  - [CSS(无内容)]()
-
-  - [JavaScript(无内容)]()
-
+  [MongoDB](database/MongoDB/)
+  
+- 前端技术
+  
+  [HTML(无内容)]()
+  
+  [CSS(无内容)]()
+  
+  [JavaScript(无内容)]()
+  
 - 开发语言
-
-  - [Java(无内容)]()
-
-  - [Python(无内容)]()
+  
+  [Java(无内容)]()
+  
+  [Python(无内容)]()
+  
+- Git&Github
+  
+  [git&github](git&github/)
