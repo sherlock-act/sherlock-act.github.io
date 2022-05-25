@@ -20,7 +20,7 @@
 
   - [Java(无内容)]()
 
-  - [Python(无内容)]()
+  - [Python](python/)
 
 * Git&Github
 
