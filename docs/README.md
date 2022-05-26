@@ -4,9 +4,11 @@
 
 [MongoDB](database/MongoDB/)
 
+[Redis](database/Redis/Redis.md)
+
 # 前端技术
 
-[HTML(无内容)]()
+[HTML](前端/HTML/)
 
 [CSS(无内容)]()
 
@@ -14,7 +16,7 @@
 
 # 开发语言
 
-[Java(无内容)]()
+[Java](java/)
 
 [Python](python/)
 
