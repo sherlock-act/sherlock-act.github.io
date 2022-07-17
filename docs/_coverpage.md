@@ -1,6 +1,6 @@
 <!-- _coverpage.md --> 
 
-![](logo.jpeg)
+![](logo.png)
 
 # **个人知识库**
 
