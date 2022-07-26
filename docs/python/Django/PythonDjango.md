@@ -1995,14 +1995,13 @@ DATABASES = {
 }
 ```
 
-3. **第一次运行的时候报错，需要安装MYSQLclient**
+3. **第一次运行的时候报错，修改__init__文件**
 
 ```
-# 第一步
-sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+import pymysql
 
-# 第二步
-pip install mysqlclient
+
+pymysql.install_as_MySQLdb()
 ```
 
 4.**mysql的日志文件**
