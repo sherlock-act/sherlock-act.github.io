@@ -4,7 +4,7 @@
 
 [MongoDB](database/MongoDB/)
 
-[Redis](database/Redis/Redis.md)
+[Redis](/Redis/)
 
 # 前端技术
 
