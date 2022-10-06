@@ -1,5 +1,9 @@
 # python
 
+# python基础技巧
+
+[序列封包与解包](python/python基础/序列封包与解包.md)
+
 ## 爬虫
 
 [Requests](#)

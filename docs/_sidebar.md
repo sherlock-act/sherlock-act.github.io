@@ -8,7 +8,7 @@
 
 - 前端技术
 
-  - [HTML](前端/HTML/)
+  - [HTML](front_end/HTML.md)
 
   - [CSS(无内容)]()
 
