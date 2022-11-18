@@ -12,6 +12,8 @@
 
 [selenium自动化](python/selenium自动化.md)
 
+[xpath](python/xpath.md)
+
 ## 后端开发
 
 [Django](python/Django/pythonDjango.md)
