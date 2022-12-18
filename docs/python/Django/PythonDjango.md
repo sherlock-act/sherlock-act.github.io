@@ -4,7 +4,7 @@
 
 ## 认识Django
 
-[参考文档]( https://docs.djangoproject.com/zh-hans/3.0/ )
+[参考文档]( https://docs.djangoproject.com/ )
 
 ### 1、MVC框架
 
@@ -50,7 +50,7 @@ mvc框架是一种软件设计模式
 
 ## Django使用
 
-### 1、创建Django项目
+### 1.创建Django项目
 
 命令：`django-admin startproject 项目名`
 
@@ -2024,14 +2024,52 @@ pymysql.install_as_MySQLdb()
 
 `sudo tail -f /var/log/mysql/mysql.log `
 
+### jin中间件
+
 ### Django其他技术
 
-#### 静态文件
+#### 中间件
 
 &emsp;在 网页使用的css文件，js文件和图片叫做静态文件;
 
 1. 新建静态文件夹  static
 2. 在项目的setting.py中配置静态文件所在物理目录；
+
+```python
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# STATIC_URL设置访问静态文件对应的url。
+# STATICFILES_DIRS设置静态文件所在的物理目录。
+```
+
+* 动态生成静态文件的路径
+
+```html
+<!DOCTYPE html>
+<!-- 加载静态文件路径 -->
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态文件</title>
+</head>
+<body>
+<img src="/static/images/mm.jpg"><br/>
+<img src="/abc/images/mm.jpg"><br/>
+动态获取STATIC_URL,拼接静态文件路径:<br/>
+<img src="{% static 'images/mm.jpg' %}">
+</body>
+</html>
+
+<!-- 说明：这种方案可以隐藏真实的静态文件路径，但是结合Nginx布署时，会将所有的静态文件都交给Nginx处理，而不用转到Django部分，所以这项配置就无效了 -->
+```
+
+#### 
+
+&emsp;在 网页使用的css文件，js文件和图片叫做静态文件;
+
+1. 新建静态文件夹  static
+2. 
 
 ```python
 STATIC_URL = '/static/'
@@ -2250,4 +2288,17 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"static/media")
 
 7）在static目录下创建media目录，再创建应用名称的目录，此例为booktest。
 
-![上传图片](images/p4_3.png)
+![上传图片](images/p4_3.png)TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=dhcp
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+NAME=enp0s5
+UUID=3dc8d7f3-fcb5-416b-958a-2acd3948b06e
+DEVICE=enp0s5
+ONBOOT=yes
